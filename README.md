@@ -5,7 +5,7 @@
 Simple Arduino program to control:
 
 - the head light
-- the breake light
+- the break light
 - the flasher
 - and more
 
