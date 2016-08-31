@@ -40,7 +40,7 @@ void setup() {
   display.display();
   delay(3000);
   display.clearDisplay();
-}
+};
 
 void loop() {
   digitalRead(2);
@@ -54,25 +54,25 @@ void loop() {
     delay(1000);
     digitalWrite(6,LOW);
     delay(1000);
-  } 
+  } ;
   digitalWrite(6,LOW);
- }
+ };
  else (digitalRead(3)==HIGH){
   while(digitalRead(3)==HIGH){
     digitalWrite(7,HIGH);
     delay(1000);
     digitalWrite(7,LOW);
     delay(1000);
-  }
+  };
   digitalWrite(7,LOW);
- }
+ };
 else (digitalRead(4)==HIGH){
   while(digitalRead(4)==HIGH){
     digitalWrite(6,HIGH);
     digitalWrite(7,HIGH);
-  }
+  };
   digitalWrite(6,LOW);
   digitalWrite(7,LOW);
-}
+};
 
-}
+};
