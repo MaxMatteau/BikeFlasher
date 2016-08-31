@@ -57,7 +57,7 @@ void loop() {
   } ;
   digitalWrite(6,LOW);
  };
- else if (digitalRead(3)==HIGH){
+ else (digitalRead(3)==HIGH){
   while(digitalRead(3)==HIGH){
     digitalWrite(7,HIGH);
     delay(1000);
@@ -66,7 +66,7 @@ void loop() {
   };
   digitalWrite(7,LOW);
  };
-else if (digitalRead(4)==HIGH){
+else (digitalRead(4)==HIGH){
   while(digitalRead(4)==HIGH){
     digitalWrite(6,HIGH);
     digitalWrite(7,HIGH);
