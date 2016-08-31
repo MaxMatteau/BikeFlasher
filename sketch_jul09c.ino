@@ -35,44 +35,44 @@ void testfillrect(void) {
 };
 
 void setup() {
-// "bootlogo"
+// draw multiple rectangles
   testfillrect();
   display.display();
   delay(3000);
   display.clearDisplay();
-}
+};
 
 void loop() {
-  // inutile
-  /*digitalRead(2);
+  digitalRead(2);
   digitalRead(3);
   digitalRead(4);
-  analogRead(A1);*/
+  analogRead(A1);
 
-  if (digitalRead(2)==HIGH){
-    while(digitalRead(2)==HIGH) do {
-      digitalWrite(6,HIGH);
-      delay(1000);
-      digitalWrite(6,LOW);
-      delay(1000);
-    };
+ if (digitalRead(2)==HIGH){
+  while(digitalRead(2)==HIGH){
+    digitalWrite(6,HIGH);
+    delay(1000);
     digitalWrite(6,LOW);
-  } elseif (digitalRead(3)==HIGH) {
-      while (digitalRead(3)==HIGH) do {
-        digitalWrite(7,HIGH);
-        delay(1000);
-        digitalWrite(7,LOW);
-        delay(1000);
-      };
-      digitalWrite(7,LOW);
-  } elseif (digitalRead(4)==HIGH) {
-      while (digitalRead(4)==HIGH) do {
-        digitalWrite(6,HIGH);
-        digitalWrite(7,HIGH);
-      };
-      digitalWrite(6,LOW);
-      digitalWrite(7,LOW);
-  }
+    delay(1000);
+  } ;
+  digitalWrite(6,LOW);
+ };
+ else (digitalRead(3)==HIGH){
+  while(digitalRead(3)==HIGH){
+    digitalWrite(7,HIGH);
+    delay(1000);
+    digitalWrite(7,LOW);
+    delay(1000);
+  };
+  digitalWrite(7,LOW);
+ };
+else (digitalRead(4)==HIGH){
+  while(digitalRead(4)==HIGH){
+    digitalWrite(6,HIGH);
+    digitalWrite(7,HIGH);
+  };
+  digitalWrite(6,LOW);
+  digitalWrite(7,LOW);
+};
 
-} 
-//EOF
+};
