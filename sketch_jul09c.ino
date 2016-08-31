@@ -45,7 +45,7 @@ void setup() {
 }
 
 void loop() {
-/* Totaly useless block of f*** code
+/* Totaly useless block of f*** code done by Alfredo Liguine
   digitalRead(2);
   digitalRead(3);
   digitalRead(4);
