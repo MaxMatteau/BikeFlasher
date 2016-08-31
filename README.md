@@ -1,5 +1,6 @@
 # BikeFlasher
-**Work In Progress**  
+***-- Work In Progress --***  
+
 Simple Arduino program to control:
 - the head light
 - the breake light
