@@ -13,7 +13,7 @@
   #define PhotoCell A4
 
 // OLED pins
-  #define OLED_MOSI   9
+  #define OLED_MOSI   9    // Data pin on screen
   #define OLED_CLK   10
   #define OLED_DC    11
   #define OLED_CS    12
